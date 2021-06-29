@@ -14,7 +14,7 @@ item_an3 = types.KeyboardButton('Ошибка')
 item_an4 = types.KeyboardButton('Успешная регистрация!')
 markup_reply.add(item_an, item_an1, item_an2, item_an3, item_an4)
 bot.send_message(ID, f'⬇️Номер телефона⬇️', reply_markup = markup_reply)
-bot.send_message(ID, f'numb') 
+bot.send_message(ID, numb) 
 @bot.message_handler(content_types = ['text'])
 def get_text(message):
 	if message.text == 'Вам был отправлен код':
